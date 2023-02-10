@@ -161,8 +161,10 @@ class ExpReward(LinearReward):
         range_comfort_summer: Tuple[int, int],
         summer_start: Tuple[int, int] = (6, 1),
         summer_final: Tuple[int, int] = (9, 30),
-        energy_weight: float = 0.5,
-        lambda_energy: float = 1e-4,
+        #changes from 0.5 to 0.7
+        energy_weight: float = 0.8,
+       # lambda_energy: float = 1e-4,
+        lambda_energy: float = 1.0,
         lambda_temperature: float = 1.0
     ):
         """
