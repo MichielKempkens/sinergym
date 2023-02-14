@@ -1,0 +1,2 @@
+episode_num,cumulative_reward,mean_reward,cumulative_power_consumption,mean_power_consumption,cumulative_comfort_penalty,mean_comfort_penalty,cumulative_power_penalty,mean_power_penalty,comfort_violation (%),mean_comfort_violation,std_comfort_violation,cumulative_comfort_violation,length(timesteps),time_elapsed(seconds)
+0,-2347.337563097339,-0.788755901578407,14894074.298153091,5004.729266852517,-2508.5544410612565,-0.8429282396039168,-1489.4074298153091,-0.5004729266852517,18.346774193548388,nan,nan,0.0,2976,2678400

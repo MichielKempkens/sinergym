@@ -198,8 +198,8 @@ RANGES_WAREHOUSE = {
 DEFAULT_5ZONE_OBSERVATION_VARIABLES = [
     'Site Outdoor Air Drybulb Temperature(Environment)',
     'Site Outdoor Air Relative Humidity(Environment)',
-  #  'Site Wind Speed(Environment)',
-  #  'Site Wind Direction(Environment)',
+    'Site Wind Speed(Environment)',
+    'Site Wind Direction(Environment)',
     'Site Diffuse Solar Radiation Rate per Area(Environment)',
     'Site Direct Solar Radiation Rate per Area(Environment)',
     'Zone Thermostat Heating Setpoint Temperature(SPACE1-1)',
@@ -207,7 +207,7 @@ DEFAULT_5ZONE_OBSERVATION_VARIABLES = [
     'Zone Air Temperature(SPACE1-1)',
     'Zone Thermal Comfort Mean Radiant Temperature(SPACE1-1 PEOPLE 1)',
     'Zone Air Relative Humidity(SPACE1-1)',
- #   'Zone Thermal Comfort Clothing Value(SPACE1-1 PEOPLE 1)',
+    'Zone Thermal Comfort Clothing Value(SPACE1-1 PEOPLE 1)',
     'Zone Thermal Comfort Fanger Model PPD(SPACE1-1 PEOPLE 1)',
     'Zone People Occupant Count(SPACE1-1)',
     'People Air Temperature(SPACE1-1 PEOPLE 1)',
@@ -249,8 +249,8 @@ DEFAULT_5ZONE_ACTION_SPACE_CONTINUOUS = gym.spaces.Box(
 
 DEFAULT_5ZONE_ACTION_DEFINITION = {
     # I changed if from (21:25)
-    'Htg-SetP-Sch': {'name': 'Heating_Setpoint_RL', 'initial_value': 33},
-    'Clg-SetP-Sch': {'name': 'Cooling_Setpoint_RL', 'initial_value': 48},
+    'Htg-SetP-Sch': {'name': 'Heating_Setpoint_RL', 'initial_value': 21},
+    'Clg-SetP-Sch': {'name': 'Cooling_Setpoint_RL', 'initial_value': 25},
 }
 
 # ----------------------------------DATACENTER--------------------------------- #

@@ -39,7 +39,9 @@ class LinearReward(BaseReward):
         summer_start: Tuple[int, int] = (6, 1),
         summer_final: Tuple[int, int] = (9, 30),
         energy_weight: float = 0.5,
+        #energy_weight: float = 1,
         lambda_energy: float = 1e-4,
+        #lambda_energy: float = 1,
         lambda_temperature: float = 1.0
     ):
         """
@@ -162,9 +164,9 @@ class ExpReward(LinearReward):
         summer_start: Tuple[int, int] = (6, 1),
         summer_final: Tuple[int, int] = (9, 30),
         #changes from 0.5 to 0.7
-        energy_weight: float = 0.8,
-       # lambda_energy: float = 1e-4,
-        lambda_energy: float = 1.0,
+        energy_weight: float = 0.5,
+        lambda_energy: float = 1e-4,
+        #lambda_energy: float = 1,
         lambda_temperature: float = 1.0
     ):
         """
